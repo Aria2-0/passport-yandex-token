@@ -70,7 +70,7 @@ module.exports = {
 };
 ```
 
-The request to this route should include a GET or POST data with the keys `access_token` and optionally, `refresh_token` set to the credentials you receive from Yandex.
+The request to this route should include a GET or POST data or set as a header with the keys `access_token` and optionally, `refresh_token` set to the credentials you receive from Yandex.
 
 ```
 GET /auth/yandex?access_token=<TOKEN>
